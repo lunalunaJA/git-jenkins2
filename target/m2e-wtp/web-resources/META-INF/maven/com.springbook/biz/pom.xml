@@ -214,8 +214,9 @@
 			<scope>test</scope>
 		</dependency>      
 	</dependencies>
-	
+			
     <build>
+        <finalName>SvnTest</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
@@ -254,5 +255,6 @@
         </plugins>
         
         <defaultGoal>install</defaultGoal>
+       
     </build>
 </project>
