@@ -216,7 +216,7 @@
 	</dependencies>
 			
     <build>
-        <finalName>SvnTest</finalName>
+        <!-- <finalName>SvnTest</finalName> -->
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
